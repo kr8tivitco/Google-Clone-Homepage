@@ -1,0 +1,225 @@
+/*			CSS RESET 
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*TEMPORARY SETTING SUGGGESTION*/
+* {
+	outline: 1px solid black;
+}*/
+/*/////////////////////////////////////////////////////////////
+//                 Work below by KN M                        /
+///////////////////////////////////////////////////////////*/
+
+#container {
+	magin:0px;
+}
+#header {
+  position: relative;
+  /*border: 2px solid #547980;*/
+  height: 65px;
+ 
+ }
+#hdrbtns_contain {
+	position: static;
+	float: right;
+	/*vertical-align: middle;*/
+
+	top: 10px;
+	right: 20px;	
+}
+#hdrbtns_contain a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 10px;
+	line-height: 25px;
+	font-family: sans-serif;	
+	font-size: 85%;
+	/*color: #000;*/
+	/*vertical-align: middle;*/
+}
+.txtcolr {
+	color: #395870;
+}
+
+.icon_btn{
+	
+	/*margin-top: 25px;*/
+	vertical-align: middle;
+}
+.signin_btn {
+	border-radius: 2px;
+	margin-right: 10px;
+	background-color: #466EF2;
+	color: #FFF;
+	vertical-align: middle;
+}
+
+#google_container {
+	position: relative;
+	height: 350px;
+	vertical-align: middle;
+	
+}
+.google_img {	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 150px;
+	padding-bottom: 10px;
+	
+}
+#search {
+	position: relative;
+	color: #395870;
+   	font-weight: bold;
+  	/*margin-bottom: 20px;
+  	margin-left: auto;
+	margin-right: auto;*/
+ 	/*vertical-align: middle;*/
+
+ }
+input {
+  	position: relative;
+  	display: block;
+  	/*background: #fff;*/
+  	border: 1px solid #c6c7cc;
+   	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  	color: #636466;
+    margin-top: 0px;
+  	width: 45%;
+  	height: 25px;
+  	margin-left: auto; /*30%;*/
+	margin-right: auto;
+	/*vertical-align: middle;*/
+	margin-top: -40px;
+	background: #fff url(microphone.png) right no-repeat !important;
+	font-size: 10px;
+	
+}
+/*#midbtns_contain {
+	/*display: inline-block;
+	position: absolute;
+	top: 20px;
+	right: 20px;*/
+	/*vertical-align: middle;
+	
+}*/
+#search_btn {
+	position: relative;
+	display: inline-block;
+		border-radius: 1px;
+	border: 1px solid #D2D2D6;
+	background-color: #EDEFF5;
+	color: #404042;
+	width:100px;
+	height: 25px;
+	font-size: 80%;
+	margin-left: 40%; /*10px*/
+	margin-right: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	/*font-weight:bold;*/
+	/*padding: -5px -5px;10 10px;*/
+
+
+}
+.lucky_btn {
+	position: absolute;
+	display: inline-block;
+	border-radius: 1px;
+	border: 1px solid #D2D2D6;
+	background-color: #EDEFF5;
+	color: #404042;
+	width:100px;
+	height: 25px;
+	font-size: 80%;
+	font-family: sans-serif;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer {
+	position: fixed;
+	bottom: 0px;
+	height: 40px;
+	width: 100%;
+	background-color: #E2E1E3;
+	
+	
+}
+	
+#ftrbtns_left {
+	position: static;
+	bottom: 0px;
+	float: left;
+	
+}
+#ftrbtns_left a {
+	text-decoration: none;
+	padding: 10px 10px;
+	line-height: 35px;
+	font-family: sans-serif;
+	font-size: 85%;
+	 	
+}
+#ftrbtns_right {
+	position: static;
+	bottom: 0px;
+	float: right;
+}
+#ftrbtns_right a {
+	text-decoration: none;
+	padding: 10px 10px;
+	line-height: 35px;
+	font-family: sans-serif;
+	font-size: 85%;
+
+
+}
